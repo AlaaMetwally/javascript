@@ -1,0 +1,43 @@
+
+#start
+{
+width:130px;
+height:60px;
+}
+span{
+    display: inline-block;
+}
+.inactive
+{
+    border:1px solid rgb(209, 200, 200);
+    color:white;
+}
+.active{
+    border:1px solid rgb(209, 200, 200);
+    background-color:rgb(247, 196, 238);
+}
+span{
+    height: 20px;
+    width: 50px;
+}
+#buttons
+{
+    text-align: center;
+    position:relative;
+}
+#screen
+{
+    width: 1040px;
+    height: 440px;
+}
+button 
+{
+    width:80px;
+    height:30px;
+}
+select
+{
+    position: relative;
+    height: 30px;
+    width:80px;
+}

@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="grid.css">
+  <link rel="icon" type="image/png" id="favicon" href="game.png">
+  <title>GAME</title>
+  <meta content="">
+</head>
+
+<body>
+  <center>
+    <div id="screen"></div>
+  </center>
+  <section>
+
+    <div id="buttons">
+      <button id="begin">Start</button>
+      <button id="next" enabled="true">Next</button>
+      <button id="prev" enabled="true">Previous</button>
+      <button id="reset">Reset</button>
+
+      <select id="time">
+        <option value="100" id="chosen" selected>100 ms</option>
+        <option value="200">200 ms</option>
+        <option value="500">500 ms</option>
+        <option value="1000">1000 ms</option>
+      </select>
+
+      <select id="selected">
+        <option id="20" value="20">20X20</option>
+        <option id="50" value="50">50X50</option>
+        <option id="100" value="100">100X100</option>
+      </select>
+
+    </div>
+  </section>
+  <script src="jquery-3.1.1.js"></script>
+  <script src="grid.js"></script>
+</body>
+
+</html>
